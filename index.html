@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Athena_Web.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://www.w3schools.com/lib/w3.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Author: Athena hoi Pecson -->
+<!-- Date: JUNE 10, 2022 -->
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <ul class="w3-navbar" id="myNavbar">
+    <li><a href="#" class="w3-padding-large">ATHENA's web.</a></li>
+    <li class="w3-hide-small w3-right">
+      <a href="#contact" class="w3-padding-large">Contact</a>
+    </li>
+    <li class="w3-hide-small w3-right">
+      <a href="#portfolio" class="w3-padding-large"> Blog</a>
+    </li>
+    <li class="w3-hide-small w3-right">
+      <a href="#about" class="w3-padding-large">About me</a>
+    </li>
+  </ul>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-opacity w3-display-container">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <h1 class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">ATHENA <span class="w3-hide-small">HOI</span></h1>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h2 class="w3-center">HELLO!</h2>
+  <p class="w3-center"><em> I AM ATHENA, NICE TO MEET U ❤  </em></p>
+  <p>I'm 18,  a Form 5 student in CDSJ5 Senior High School. I am an outgoing girl. Therefore, I’ve joined many activities.  I love playing badminton, reading books. And  I am a dreamer whose dream is to travel around the world in the future. If you want to know more about me, please click this  <a href="https://athenahoi.github.io/athenawebsitecv/" title="MORE ABOUT ME" target="_blank" class="w3-hover-opacity">MORE ABOUT ME.</a></p>
+</footer>
+</p>
+  <!--  Profile Picture and Description  -->
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-section">
+      <img src="https://i.postimg.cc/jdczgpvW/HOI.jpg" id="profile" class="w3-circle" alt="Photo of Me">
+    </div>
+     <p> MY MOTTO:  </em></p>
+ <p> Don’t part with your illusions . When they are gone you may still exist , but you have ceased to live. --  Mark Twain</p>
+
+    </div>
+    <!-- Hide this text on small devices -->
+   
+    
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container" id="portfolio">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-light-grey w3-wide">MY BLOG</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64">
+  <h2 class="w3-center">DAILY LIFE</h2>
+  <p class="w3-center"><em>Here are some of my MEMORIES and DAILY PICTURES.<br> Click on the images to make them bigger. <br>more in <a href="https://vsco.co/hoiut/gallery" title="MORE ABOUT ME" target="_blank" class="w3-hover-opacity">MY VSCO Gallery</a></p>
+</footer></em></p><br>
+  
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="https://i.postimg.cc/Kc30qV7N/We-Chat-20220610212608.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://i.postimg.cc/rFFLtq2m/We-Chat-20220610212355.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://i.postimg.cc/QCbLFydv/We-Chat-20220610212907.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://i.postimg.cc/kG2dVyLc/We-Chat-20220610212219.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="https://i.postimg.cc/yxSDy7cw/We-Chat-20220610211647.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://i.postimg.cc/Jnhmb89M/We-Chat-20220610213411.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://i.postimg.cc/7L5vthtt/We-Chat-20220610211953.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://i.postimg.cc/0QLkx3Bv/We-Chat-20220610213532.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-closebtn w3-hover-red w3-text-white w3-xxxlarge w3-container w3-display-topright">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" style="max-width:100%">
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container" id="contact">
+  <div class="w3-display-middle">
+    <h2 class="w3-xxlarge w3-text-light-grey w3-wide">CONTACT</h2>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">I AM HERE!</h3>
+  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+  <address class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-round-large"></div>
+    </div>
+    <div class="w3-col m8 w3-container w3-section">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker w3-hover-text-black" style="width:30px"></i> Colégio Diocesano de São José 5, Macau<br>
+        <i class="fa fa-phone w3-hover-text-black" style="width:30px"></i> Phone: +853 6523 1585<br>
+        <i class="fa fa-envelope w3-hover-text-black" style="width:30px"> </i> Email: athena.hoi0458@gmail.com<br>
+      </div>
+      <p>Swing by for a cup of coffee, or leave me a note:</p>
+      <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+        <div class="w3-half">
+          <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Name">
+        </div>
+        <div class="w3-half">
+          <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Email">
+        </div>
+      </div>
+      <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Comment">
+      <a href="mailto:athena.hoi0458@gmail.com" class="w3-btn w3-section w3-right">SEND</a>
+    </div>
+  </address>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-dark-grey w3-padding-48 w3-hover-black cf">
+  <div class="w3-half">
+    <a target="_blank" href="https://i.postimg.cc/Kv2sK2wW/We-Chat-20220610215956.jpg">
+      <i class="fa fa-wechat fa-2x"></i>
+    </a>
+    <a target="_blank"
+     href="https://instagram.com/athena_hoi?igshid=NmZiMzY2Mjc=
+" target="_blank"><i class="fa fa-instagram fa-2x"></i>
+     </a></li>
+
+    <a target="_blank" href="https://www.facebook.com/profile.php?id=100020416537025
+">
+      <i class="fa fa-facebook fa-2x"></i>
+    </a>
+  
+    <a target="_blank" href="https://vsco.co/hoiut">
+      <i class="fa fa-camera fa-2x"></i>
+    </a>
+    
+  </div>
+  <p class="w3-half">Made with <span class="heart-icon">❤</span> by ATHENA
+<!-- partial -->
+  <script src='https://maps.googleapis.com/maps/api/js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
